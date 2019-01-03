@@ -197,7 +197,7 @@ $mailprog                    = '/usr/lib/sendmail -t -oi';
                              # but.. qmail doesn't work on windows
                              # I've had a good experience with Postfix (as of 2008).
 
-$smtp_host                   = 'smtp.opovodigital.com';
+$smtp_host                   = 'smtp.gmail.com';
                              # set only if you set send_method to 'smtp'
                              # (useful for Windows)
 
@@ -205,12 +205,12 @@ $send_method                 = 'sendmail';
                              # set $send_method to 'sendmail' or 'smtp';
                              # (often set to smtp for WinX)
 
-$admin_email_to              = 'joel@opovodigital.com';
+$admin_email_to              = 'joelcostapinheiro@gmail.com';
                              # the email for error and notification
                              # messages, and the email recipient
                              # of the database files.
 
-$admin_email_from            = 'infra@opovodigital.com';
+$admin_email_from            = 'teste@gmail.com';
 
 # database options
 # ..................................
