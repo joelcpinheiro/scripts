@@ -2,7 +2,7 @@
 # INFO:  SCRIPT QUE EFETUA A LIMPEZA DA MEMORIA CACHE, EVITANDO QUE A MESMA SEJA UTILIZADA E VA PARA A MEMORIA SWAP, CAUSANDO LENTIDAO NO SO
 # NOTA:  UTILIZA A LINGUAGEM DE CALCULADORA BC
 # AUTOR: JOEL PINHEIRO
-# EMAIL: JOEL@OPOVODIGITAL.COM
+# EMAIL: JOELCOSTAPINHEIRO@GMAIL.COM
 # UPDATE 16/04/2018
 memlivre=$(cat /proc/meminfo | grep MemFree | tr -s ' ' | cut -d ' ' -f2) && memlivre=$(echo "$memlivre/1024.0" | bc)
 memcached=$(cat /proc/meminfo | grep "^Cached" | tr -s ' ' | cut -d ' ' -f2) && memcached=$(echo "$memcached/1024.0" | bc)
