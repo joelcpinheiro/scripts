@@ -1,6 +1,6 @@
 #!/bin/bash
-# $1 domain
-# $2 email
+# $1 is a domain 
+# $2 is a email address
 zmprov ma $2 zimbraIsDelegatedAdminAccount TRUE
 zmprov ma $2 zimbraAdminConsoleUIComponents cartBlancheUI zimbraAdminConsoleUIComponents domainListView zimbraAdminConsoleUIComponents accountListView zimbraAdminConsoleUIComponents DLListView
 zmprov ma $2 zimbraDomainAdminMaxMailQuota 0
