@@ -1,3 +1,5 @@
+## I'll translate asap :)
+
 # Scripts diversos, vou tentar explicar o que é em miúdos
 
 ## O que fazer com cada um deles?
